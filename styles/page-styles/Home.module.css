@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  width: 90vw;
+  min-height: 100vh;
+  border: 1px solid red;
+}
+
+.heroSection {
+  border: 1px solid blue;
+}
+
+.blogPortfolioItems {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2em;
+}
