@@ -5,7 +5,7 @@ import "@/styles/globals.css"
 
 const nanumGothicCoding = Nanum_Gothic_Coding({
   weight: "400",
-  subsets: ["latin", "korean"],
+  subsets: ["latin"],
 })
 
 export default function RootLayout({
