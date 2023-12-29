@@ -5,10 +5,10 @@ body {
 }
 
 :root {
-  --primary-bg-color: #276678;
+  --primary-bg-color: #252525;
   --primary-text-color: #F6F5F5;
-  --primary-btn-color: #1687A7;
-  --accent-color: #D3E0EA; 
+  --primary-btn-color: #E94560;
+  --accent-color: #F4ABC4; 
 }
 
 a {

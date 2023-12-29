@@ -1,9 +1,9 @@
-import { Nanum_Gothic_Coding } from "@next/font/google"
+import { Hahmlet } from "next/font/google"
 import { GlobalFooter } from "@/ui/global/GlobalFooter"
 import { GlobalNav } from "@/ui/global/GlobalNav"
 import "@/styles/globals.css"
 
-const nanumGothicCoding = Nanum_Gothic_Coding({
+const hahmlet = Hahmlet({
   weight: "400",
   subsets: ["latin"],
 })
@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang='en' className={nanumGothicCoding.className}>
+    <html lang='en' className={hahmlet.className}>
       <head>
         <title>Tedd Chee</title>
       </head>

@@ -1,8 +1,0 @@
-.cardArticle {
-  display: grid;
-  color: var(--primary-text-color);
-}
-
-.cardArticle h3 {
-  font-size: 1.75rem;
-}

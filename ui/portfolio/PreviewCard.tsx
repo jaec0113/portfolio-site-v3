@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import styles from "@/styles/ui/portfolio-preview-card.module.css"
+import styles from "@/styles/ui/components/portfolio-preview-card.module.css"
 
 export function PreviewCard({ portfolioItem }: any) {
   const { name, slug, techUsed, projectSummary, tags, previewImage } =
@@ -24,6 +24,7 @@ export function PreviewCard({ portfolioItem }: any) {
         </p>
         <Image src={previewImage.url} alt='alt text' width={250} height={250} />
       </Link>
+      <button className={styles.button}>Read More</button>
     </article>
   )
 }
